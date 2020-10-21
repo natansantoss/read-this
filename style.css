@@ -1,0 +1,130 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 62,5%;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: #201f1edd;
+}
+
+.reader-robot-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-extension{
+    text-align: center;
+    
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: #000 0 0 7px;
+}
+h1{
+    margin: 5px 0px;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+.version{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #14779b;
+}
+
+hr{
+    width: 500px;
+}
+
+.text-box{
+    text-align: center;
+    color: #fff;
+
+    text-shadow: #000 0 0 7px;
+}
+.text-box p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.text-box textarea{
+    resize: vertical;
+
+    padding:10px;
+
+    width: 500px;
+    height: 100px;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    border-radius: 7px;
+    border: #cfd2da 2px solid;
+}
+.button-box{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+button:hover{
+    opacity: 0.7;
+    transition: opacity 500ms;
+    cursor: pointer;
+}
+.button-box button{
+    cursor: pointer;
+    background: none;
+    color: #14779b;
+    border: none
+}
+
+.config-box{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 20px 0px;
+
+    text-align: center;
+    font-size: 1.0rem;
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+}
+.config-language{
+    display: flex;
+    flex-direction: column;
+}
+.config-language span{
+    margin: 10px 0px;
+}
+.config-language select{
+    padding: 7px;
+    background-color: #323130;
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+    border: #14779b 2px solid;
+}
+.config-speed{
+    display: flex;
+    flex-direction: column;
+}
+.config-speed span{
+    margin: 10px 0px;
+}
+.config-speed select{
+    padding: 7px;
+    background-color: #323130;
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+    border: #14779b 2px solid;
+}

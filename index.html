@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        
+        <title>Reader Robot</title>
+    </head>
+    <body>
+        <div class="reader-robot-page">
+            <div class="container">
+                <div class="info-extension">
+                    <h1 class="name">Read This</h1>
+                    <span class="version">Version: 1.0</span>
+                </div>
+                <hr/>
+                <div class="content-box">
+                    <div class="text-box">
+                        <p>Selecione um texto na página ou escreva abaixo</p>
+                        <textarea type="text" id="input"></textarea>
+                    </div>
+                    <div class="button-box">
+                        <button class="fas fa-play fa-3x" id="btn-start"></button>
+                        <button class="fas fa-pause fa-3x" id="btn-pause"></button>
+                        <button class="fas fa-angle-double-left fa-3x" id="btn-reload" style="color: #de2e42"></button>
+                    </div>
+                    <hr/>
+                    <div class="config-box">
+                        <div class="config-language">
+                            <span>Selecione um idioma</span>
+                            <select name="language" class="language">
+                                <option value="pt-BR">Português</option>
+                                <option value="en-US">Ingles</option>
+                            </select>
+                        </div>
+                        <div class="config-speed">
+                            <span>Selecione uma velocidade</span>
+                            <select name="speed" class="speed">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="8">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
